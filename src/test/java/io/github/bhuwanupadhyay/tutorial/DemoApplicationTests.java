@@ -21,7 +21,7 @@ class DemoApplicationTests {
     }
 
     @Test
-    void contextLoads() {
+    void canAddCustomer() {
         String name = "Vault - " + UUID.randomUUID().toString();
         repository.save(new Customer(name));
         assertEquals(name, repository.findAll().get(0).getName());
