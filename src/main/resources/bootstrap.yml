@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: example-vault
+  cloud:
+    vault:
+      uri: http://localhost:8200
+      token: '00000000-0000-0000-0000-000000000000'
+      database:
+        enabled: true
+        role: readonly
+        backend: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
