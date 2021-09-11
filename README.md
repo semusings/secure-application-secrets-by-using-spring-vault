@@ -1,3 +1,3 @@
 # Secure application secrets by using spring vault
 
-Full Post : https://bhuwanupadhyay.github.io/blog/secure-application-secrets-by-using-spring-vault/
+https://bhuwanupadhyay.github.io/2020/01/secure-application-secrets-by-using-spring-vault/
